@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="jquery-2.1.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    <!-- <div class="content">
+
+    </div> -->
+    <div class="loader-wrapper">
+      <p class="text">Checking your browser before accessing</p>
+      <div class="">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <div class="">
+        <p>This process is automatic. Your browser will redirect to your request content shortly.</p>
+        <p>Please allow up to 5 seconds...</p>
+
+        <p>DDoS protection enabled by teamLavender</p>
+        <p>Ray ID:
+          <span id="alphaNumric"></span>
+          </p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var alphaNum = Math.random().toString(12).slice(2);
+      document.getElementById("alphaNumric").innerHTML = alphaNum;
+    </script>
+    <script>
+		setTimeout(function () {
+        window.location.href= 'http://localhost:3000/'; // the redirect goes here
+
+      },3500);
+
+    </script>
+
+
+
+  </body>
+</html>
