@@ -2,25 +2,26 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <script src="jquery-2.1.4.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
 
-    <!-- <div class="content">
 
-    </div> -->
     <div class="loader-wrapper">
-      <p class="text">Checking your browser before accessing</p>
-      <div class="">
-        <span class="loader"><span class="loader-inner"></span></span>
-      </div>
-      <div class="">
-        <p>This process is automatic. Your browser will redirect to your request content shortly.</p>
-        <p>Please allow up to 5 seconds...</p>
 
-        <p>DDoS protection enabled by teamLavender</p>
-        <p>Ray ID:
+      <div class="load-logo">
+        <p class="text-load-head">Checking your browser before accessing </p>
+        <span class="loader"><span class="loader-inner"></span></span>
+
+        <p class="long-text1">This process is automatic. Your browser will redirect to <span class="ncb">NCB Express</span> shortly.</p>
+        <p class="long-text2">Please allow up to 5 seconds...</p>
+
+        <p class="long-text3">DDoS protection enabled by <span class="team-name">teamLavender</span></p>
+        <p class="long-text4">Ray ID:
           <span id="alphaNumric"></span>
           </p>
       </div>
@@ -28,16 +29,12 @@
     <script type="text/javascript">
       var alphaNum = Math.random().toString(12).slice(2);
       document.getElementById("alphaNumric").innerHTML = alphaNum;
-    </script>
-    <script>
 		setTimeout(function () {
         window.location.href= 'http://localhost:3000/'; // the redirect goes here
 
       },3500);
 
     </script>
-
-
 
   </body>
 </html>
