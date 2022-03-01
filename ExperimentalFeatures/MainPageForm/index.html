@@ -25,19 +25,30 @@
 <!-- WHAT I WANT IS THAT GET EVERYTHING FROM HERE FROM BOOTSTRAP LATER ON -->
 
 <body>
-  <p class="body--title">This is a text in the pagee</p>
-  <form action="/action_page.php">
-    <label for="birthday">Date of Event</label>
-    <input type="date" id="birthday" name="birthday">
-  </form>
 
-  <form action="/action_page.php">
-    <label for="appt">Time of Event</label>
-    <input type="time" id="appt" name="appt">
+  <h2 class="Comp-head">Raise Your Complaint Here👇</h2>
+
+<div class="div-whole-form">
+
+<div class="div-date">
+  <form class="date-form" action="index.html" method="post">
+    <label for="dateOfEvent"><span class="">Date of Event</span></label>
+    <input type="date" name="" value="">
   </form>
+</div>
+
+
+<div class="div-time">
+    <form class="time-form" action="index.html" method="post">
+      <label for="" class="time-label"><span class="">Time of Event</span></label>
+      <input type="time" name="" value="" class="time-input">
+    </form>
+</div>
+
+
 
   <div>
-    <form action="/action_page.php">
+    <form class="" action="index.html" method="post">
       <label for="fname">Short summary</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -62,8 +73,7 @@
         <option>Level 3</option>
         <option>Level 4</option>
 
-        <form class="row g-3">
-
+<form class="row g-3" action="index.html" method="post">
           <div class="col-12">
             <label for="inputAddress" class="form-label">Address</label>
             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
@@ -113,7 +123,7 @@
         </form>
     </form>
   </div>
-
+</div>
   <!-- LOCAL BEHAVIOUR JS -->
   <script src="behaviour.js"></script>
 </body>

@@ -6,20 +6,71 @@
 
 
 /* ALL PAGE */
-*{
+body{
   max-width:95% ;
   /* text-align: center; */
   /* margin-left: 20%; */
-  padding-left: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* BODY STYLING */
 .body--title{
   font-size: 2rem;
   font-weight: 600;
-  letter-spacing: -2px;  
+  letter-spacing: -2px;
   /* font-stretch: condensed;   */
 }
+
+
+/* <=======================================================================================================> */
+/* <==================================== COMPLAINT RAISER FORM ========================================>  */
+/* <=========================================================================================================> */
+
+
+.Comp-head{
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+.div-whole-form{
+  /* margin-left: 1%; */
+}
+
+.div-date{
+  display: inline-block;
+  padding: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.date-form{
+  display: inline-block;
+}
+
+.div-time{
+  padding: 0;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.time-form{
+  display: inline-block;
+  align-items: center;
+}
+
+.time-label{
+  align-items: right;
+}
+
+.time-input{
+  align-items: right;
+}
+
+
+
 
 
 /* MAIN SECTION MAYBE */
