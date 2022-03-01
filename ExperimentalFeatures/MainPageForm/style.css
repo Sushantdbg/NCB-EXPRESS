@@ -1,4 +1,8 @@
 /* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
+/* Im going to apply Poppins to the whole page lets see */
+*{
+  font-family: poppins;
+}
 
 
 /* ALL PAGE */
@@ -7,6 +11,14 @@
   /* text-align: center; */
   /* margin-left: 20%; */
   padding-left: 5%;
+}
+
+/* BODY STYLING */
+.body--title{
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -2px;  
+  /* font-stretch: condensed;   */
 }
 
 

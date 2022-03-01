@@ -1,0 +1,27 @@
+/* ALL/GLOBAL CSS */
+* {
+  background-color: #22292f;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN BODY CSS */
+.body--title {
+  color: #fff;
+  font-size: 6.9rem;
+  font-weight: 700;
+  margin-top: 3.5rem;
+  margin-bottom: 0;
+}
+
+.body--gif {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.bottom--text {
+  color: #696969;
+  font-size: 1.5rem;
+  max-width: 55%;
+  margin: auto;
+}
