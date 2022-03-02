@@ -1,3 +1,5 @@
+/* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
+/* ALL CSS/ GLOBAL */
 *,
 *:before,
 *:after {
@@ -6,10 +8,12 @@
   box-sizing: border-box;
 }
 
+/* BODY CSS */
 body {
   background-color: #080710;
 }
 
+/* GRAPHICAL BACKGROUND CIRCLE CSS */
 .background {
   width: 430px;
   height: 520px;
@@ -27,20 +31,18 @@ body {
 }
 
 .shape:first-child {
-  background: linear-gradient(#1845ad,
-      #23a2f6);
+  background: linear-gradient(#1845ad, #23a2f6);
   left: -80px;
   top: -80px;
 }
 
 .shape:last-child {
-  background: linear-gradient(to right,
-      #ff512f,
-      #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
   right: -30px;
   bottom: -80px;
 }
 
+/* FORM IN BODY STYLING */
 form {
   height: 520px;
   width: 400px;
@@ -90,8 +92,9 @@ input {
   font-weight: 300;
 }
 
+/* TEXT FEILD PLACEHOLDER STYLING */
 ::placeholder {
-  color: #e5e5e5;
+  color: #696969;
 }
 
 button {
