@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dedae6;
+  background-position: right 100px;
+  background-size: 16px;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+/* <===========================================   NAV BAR PAGE ==========================================> */
+/* <=========================================================================================================> */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #0f3454;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.align-text-top{
+  width:60px;
+   height:44;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  margin-left: .5rem;
+  /* color: #61DAFB; */
+  color: #d0a74f;
+  font-weight: 700;
+  font-size: 33.33px;
+}
+
+.nav--title {
+  color: white;
+  /* float: right; */
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.language-select{
+  color: gainsboro;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.language-select:hover{
+  color: bisque;
+  text-decoration: underline;
+}
+
+.auth-login-link{
+  color: gainsboro;
+  text-decoration: none;
+}
+
+.auth-login-link:hover{
+  color: bisque;
+  text-decoration: underline;
+}
+
+.nav--icon {
+  height: 60px;
+  margin-right: 7px;
+}
+
+/* The below is a very simple and neat trick to change the colour of and image or logo */
+.nav--icon--login {
+  filter: invert(100%);
+  height: 40px;
+  margin: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+/* <===========================================   MAIN CONTENT PAGE ==========================================> */
+/* <=============================================================================================================> */
