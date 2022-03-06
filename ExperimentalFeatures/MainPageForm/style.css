@@ -23,11 +23,75 @@ body{
 }
 
 
+
+/* <========================== DEFAULT ADDED CSS ============================> */
+
+/* MAIN SECTION MAYBE */
+input[type=text], select {
+  /* width: 50%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  /* width: 100%; */
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  background-color: #021725;
+  color: floralwhite;
+  padding: 20px;
+}
+
+
 /* <=======================================================================================================> */
 /* <==================================== COMPLAINT RAISER FORM ========================================>  */
 /* <=========================================================================================================> */
 
 
+label{
+  display: flow-root;
+}
+/* .form-control{
+  width: 50%;
+  display: inline-block;
+} */
+.form-select, .form-control{
+  width: 50%;
+  display: inline-block;
+}
+
+.add-file{
+  width: 10%;
+  flex: auto;
+  margin-right: 41%;
+}
+
+.date-input{
+  width: 110%;
+  color: ivory;
+}
+
+.time-input{
+  width: 170%;
+}
 .Comp-head{
   text-align: center;
   margin-top: 75px;
@@ -36,12 +100,12 @@ body{
 
 .div-whole-form{
   /* margin-left: 1%; */
+  padding-left: 10%;
 }
 
 .div-date{
   display: inline-block;
   padding: 0;
-  padding-left: 20px;
   text-align: left;
 }
 
@@ -69,38 +133,36 @@ body{
   align-items: right;
 }
 
-
-
-
-
-/* MAIN SECTION MAYBE */
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.accu-name{
+  margin-right: 30px;
+}
+.form-control, .guilty-name{
+  /* width: :100%; */
+  height: 40px;
 }
 
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.rep-select{
+  width: 50%;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+
+.addr-label{
+  max-width: 100px;
+
 }
 
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.addr-text{
+  max-width: 60%;
+}
+/* form{
+  background: #021725;
+} */
+.form-control, textarea, select, option{
+  background: none !important;
+  border-top: #FFCC33 1px solid !important;
+  border-left: #FFCC33 1px solid !important;
+  border-bottom: #FFCC33 3px solid !important;
+  border-right: #FFCC33 3px solid !important;
+  border-radius: 2px !important;
+  color: #FFCC33 !important;
 }

@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title></title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- GOOGLE FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,104 +28,105 @@
 
 <body>
 
+<!-- TOLL-FREE NUMBER, LINK HOW TO FILL A FORM, GPS, MULTIPLE FILE UPLOAD WITH DRAG AND DROP  -->
+
+
   <h2 class="Comp-head">Raise Your Complaint Here👇</h2>
 
 <div class="div-whole-form">
+<form class="" action="index.html" method="post">
 
 <div class="div-date">
-  <form class="date-form" action="index.html" method="post">
+  <div class="date-form">
     <label for="dateOfEvent"><span class="">Date of Event</span></label>
-    <input type="date" name="" value="">
-  </form>
+    <input type="date" name="" value="" class="form-control date-input">
+</div>
 </div>
 
 
 <div class="div-time">
-    <form class="time-form" action="index.html" method="post">
+    <div class="time-form">
       <label for="" class="time-label"><span class="">Time of Event</span></label>
-      <input type="time" name="" value="" class="time-input">
-    </form>
+      <input type="time" name="" value="" class="time-input form-control">
+</div>
 </div>
 
-
-
   <div>
-    <form class="" action="index.html" method="post">
-      <label for="fname">Short summary</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-      <div class="custom-select" style="width:200px;">
-        <p>
-          Catogory of report
-        </p>
-        <select class="form-control">
-          <option value="0">Drug Catogory</option>
-          <option value="1">Drug a</option>
-          <option value="2">Drig b</option>
-          <option value="3">Drug c</option>
-          <option value="4">Drug d</option>
-          <option value="4">No idea but something related to drug</option>
-        </select>
-      </div>
-
-      <p> Severioty</p>
+      <label for="fname" class="accu-name">Accused Name(Optional)</label>
+      <input type="text" id="fname" name="firstname" placeholder="enter name.." class="guilty-name form-control">
+    </div>
+    <div>
+      <label for="" class="custom-select">Catogory of report</label>
+      <select class="form-control" class="rep-select">
+        <option value="0">Drug Catogory(If Known)</option>
+        <option value="1">Drug a</option>
+        <option value="2">Drig b</option>
+        <option value="3">Drug c</option>
+        <option value="4">Drug d</option>
+        <option value="5">Unknown</option>
+        <option value="4">No idea but something related to drug</option>
+      </select>
+    </div>
+    <div>
+      <label for="">Severioty</label>
       <select class="form-control">
         <option>Level 1</option>
         <option>Level 2</option>
         <option>Level 3</option>
         <option>Level 4</option>
+      </select>
+    </div>
 
-<form class="row g-3" action="index.html" method="post">
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
+    <div >
+           <label for="inputCity" class="form-label">City</label>
+           <input type="text" class="form-control" id="inputCity">
+         </div>
 
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
+         <div>
+           <label for="inputState" class="form-label">State</label>
+           <select id="inputState" class="form-select form-control">
+             <option selected>Select option</option>
+             <option>...</option>
+           </select>
+         </div>
 
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
 
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-
-          <div class="col-md-2">
+         <div class="">
             <label for="inputZip" class="form-label">Zip</label>
             <input type="text" class="form-control" id="inputZip">
           </div>
 
-          <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupFile01">Upload relevant image</label>
-            <input type="file" class="form-control" id="inputGroupFile01">
+          <div class="addr-div">
+            <label for="" class="form-label" class="addr-label">Address</label>
+            <textarea class="addr-text" name="textarea" rows="8" cols="80" id="inputAddress" placeholder="Enter Drug Activity related address"></textarea>
+          </div>
+
+          <div class="input-group">
+            <label class="input-group-text" for="inputGroupFile01">Upload image</label>
+            <input type="file" class="form-control add-file" id="inputGroupFile01" placeholder="">
           </div>
 
           <div class="col-12">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
+               <input class="form-check-input" type="checkbox" id="gridCheck">
               <label class="form-check-label" for="gridCheck">
                 I m sure with all the date i input
               </label>
             </div>
-          </div>
 
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">SUBMIT</button>
-          </div>
 
-        </form>
-    </form>
-  </div>
-</div>
+            <div class="">
+       <button type="submit" class="btn btn-primary">SUBMIT</button>
+     </div>
+
+
+</form>
+
+
+
+
+
+
   <!-- LOCAL BEHAVIOUR JS -->
   <script src="behaviour.js"></script>
 </body>
