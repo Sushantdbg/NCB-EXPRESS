@@ -12,6 +12,7 @@ body{
   /* margin-left: 20%; */
   margin-left: 10%;
   margin-right: 10%;
+  background-color: #080710;
 }
 
 /* BODY STYLING */
@@ -23,6 +24,36 @@ body{
 }
 
 
+/* <======================== CIRCLE SHAPE start ========================================> */
+.background {
+  width: 60%;
+  height: 520px;
+  position: absolute;
+  transform: translate(-80%, -60%);
+  left: 50%;
+  top: 50%;
+}
+
+.background .shape {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: 180px;
+  top: -60px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -370px;
+  bottom: -250px;
+}
+
+/* <======================== CIRCLE SHAPE END ========================================> */
 
 /* <========================== DEFAULT ADDED CSS ============================> */
 
@@ -55,7 +86,7 @@ input[type=submit]:hover {
 div {
   border-radius: 5px;
   /* background-color: #f2f2f2; */
-  background-color: #021725;
+  /* background-color: #021725; */
   color: floralwhite;
   padding: 20px;
 }
@@ -65,6 +96,44 @@ div {
 /* <==================================== COMPLAINT RAISER FORM ========================================>  */
 /* <=========================================================================================================> */
 
+
+form {
+  margin-top: 70px;
+  /* height: 820px; */
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;*/
+  /* left: 50%; */
+  left: 20%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px 35px;
+}
+
+form * {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
 
 label{
   display: flow-root;
@@ -94,14 +163,14 @@ label{
 }
 .Comp-head{
   text-align: center;
-  margin-top: 75px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
-.div-whole-form{
-  /* margin-left: 1%; */
+/* .div-whole-form{
+  /* margin-left: 1%;
   padding-left: 10%;
-}
+} */
 
 .div-date{
   display: inline-block;
@@ -157,12 +226,40 @@ label{
 /* form{
   background: #021725;
 } */
-.form-control, textarea, select, option{
+
+
+/* def col: #FFCC33 */
+.form-control, textarea, select{
   background: none !important;
-  border-top: #FFCC33 1px solid !important;
-  border-left: #FFCC33 1px solid !important;
-  border-bottom: #FFCC33 3px solid !important;
-  border-right: #FFCC33 3px solid !important;
+  border-top: #ffffff 1px solid !important;
+  border-left: #ffffff 1px solid !important;
+  border-bottom: #ffffff 3px solid !important;
+  border-right: #ffffff 3px solid !important;
   border-radius: 2px !important;
   color: #FFCC33 !important;
+}
+
+option{
+  background-color: #28272f;
+  color: white;
+}
+
+
+.input-group-text{
+
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  padding-right: 2px;
+}
+
+.add-file{
+  margin-left: 100px;
+}
+
+.form-check-input {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 5px;
 }
