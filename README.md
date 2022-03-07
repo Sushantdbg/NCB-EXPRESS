@@ -1,13 +1,14 @@
 # sih2022
 
-### After cloning go to the my-app directory and run
+### After cloning go inside my-app directory and run
 
 ```bash
 npm install react-scripts
 ```
 
-#### This i because we arent pushing any node modules and script with the help of the gitignore file
+#### We have to do this because we arent pushing some node modules and script with the auto gitignore file
 
+#### Random packages,ignore and readme total line count 27552
 
 ### This is a croudsourced bug alert system for huge software and products
 <br/>
