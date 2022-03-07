@@ -55,10 +55,10 @@ npm install react-scripts
 #### 08.Thank you after a report page  ✅✅
 
 
-#### 09.FAQ
+#### 09.FAQ   ✅
 
 
 #### 10.Admin Report management
 
 
-#### 11.About Us
+#### 11.About Us    ✅
