@@ -41,10 +41,10 @@ npm install react-scripts
 #### 03.User Sign Up   ✅
 
 
-#### 04.Admin Sign Up
+#### 04.Admin Sign Up   ✅
 
 
-#### 05.Signup Conformation Admin
+#### 05.Signup Conformation Admin ✅
 
 
 #### 06.Reporting Page
@@ -56,10 +56,10 @@ npm install react-scripts
 #### 08.Thank you after a report page  ✅✅
 
 
-#### 09.FAQ
+#### 09.FAQ   ✅
 
 
 #### 10.Admin Report management
 
 
-#### 11.About Us
+#### 11.About Us    ✅
