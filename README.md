@@ -50,7 +50,7 @@ npm install react-scripts
 #### 06.Reporting Page ✅
 
 
-#### 07.How to write a report page/Guide to write a report
+#### 07.How to write a report page/Guide to write a report   ✅
 
 
 #### 08.Thank you after a report page  ✅✅
