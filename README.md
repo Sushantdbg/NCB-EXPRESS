@@ -59,7 +59,7 @@ npm install react-scripts
 #### 09.FAQ   ✅
 
 
-#### 10.Admin Report management
+#### 10.Admin Report management  ✅
 
 
 #### 11.About Us    ✅
