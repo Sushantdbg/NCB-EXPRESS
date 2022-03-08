@@ -47,7 +47,7 @@ npm install react-scripts
 #### 05.Signup Conformation Admin ✅
 
 
-#### 06.Reporting Page
+#### 06.Reporting Page ✅
 
 
 #### 07.How to write a report page/Guide to write a report
