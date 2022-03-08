@@ -100,13 +100,13 @@ div {
 form {
   margin-top: 70px;
   /* height: 820px; */
-  width: 60%;
+  width: 80%;
   background-color: rgba(255, 255, 255, 0.13);
-  position: absolute;
+  position:relative;
   /* transform: translate(-50%, -50%); */
   /* top: 50%;*/
   /* left: 50%; */
-  left: 20%;
+  left: 10%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -223,9 +223,7 @@ label{
 .addr-text{
   max-width: 60%;
 }
-/* form{
-  background: #021725;
-} */
+
 
 
 /* def col: #FFCC33 */
@@ -262,4 +260,14 @@ option{
   height: 1rem;
   width: 1rem;
   margin-right: 5px;
+}
+
+
+.margin-div{
+  margin-top: 10px;
+}
+
+
+.main-form{
+  margin-bottom: 100px;
 }
