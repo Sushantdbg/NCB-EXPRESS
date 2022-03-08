@@ -32,6 +32,7 @@ body{
   transform: translate(-80%, -60%);
   left: 50%;
   top: 50%;
+  border: none;
 }
 
 .background .shape {
@@ -67,13 +68,13 @@ div {
 
 
 /* <=======================================================================================================> */
-/* <==================================== COMPLAINT Guide FORM ========================================>  */
+/* <==================================== Admin Report FORM ========================================>  */
 /* <=========================================================================================================> */
 
 
 /* s */
 
-.guide  {
+.adminReport  {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -82,7 +83,7 @@ div {
 }
 
 
-.guide {
+.adminReport {
   margin-top: 70px;
   /* height: 820px; */
   width: 80%;
@@ -100,7 +101,7 @@ div {
   margin-bottom: 100px;
 }
 
-.guide {
+.adminReport {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -109,26 +110,26 @@ div {
   border: none;
 }
 
-.guide--title {
+.adminReport--title {
   font-size: 2rem;
   text-align: center;
   font-weight: 900;
 }
 
-.guide--point {
+.adminReport--point {
   text-align: center;
   margin-top: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.guide--desc {
+.adminReport--desc {
   font-size: 16px;
 }
 
 button {
   margin-top: 40px;
-  width: 100%;
+  width: 90%;
   background-color: #ffffff;
   color: #080710;
   padding: 15px 0;
@@ -137,9 +138,42 @@ button {
   border-radius: 5px;
   cursor: pointer;
   color: black;
+  margin-left: 50px;
+  margin-right: 100px;
 }
-
 
 .button-last:hover{
 background-color:   #23a2f6;
+}
+
+.button-last:hover{
+background-color:   #23a2f6;
+}
+
+/* <========================================= CARD (PROPS) CSS START ==========================> */
+
+
+
+/* .adminReport{
+  color: black;
+} */
+
+div{
+  color: black;
+}
+
+
+.container{
+  margin: 20px;
+  width: 95%;
+  height: 300px;
+}
+
+.card{
+  height: 250px;
+
+}
+
+.row{
+  margin: 0;
 }
