@@ -21,9 +21,9 @@ nav {
   padding: 30px 25px;
 }
 
-.align-text-top{
-  width:60px;
-   height:44;
+.align-text-top {
+  width: 60px;
+  height: 44;
 }
 
 .nav--logo_text, .nav--title {
@@ -46,23 +46,23 @@ nav {
   font-size: 15px;
 }
 
-.language-select{
+.language-select {
   color: gainsboro;
   text-decoration: none;
   margin-right: 10px;
 }
 
-.language-select:hover{
+.language-select:hover {
   color: bisque;
   text-decoration: underline;
 }
 
-.auth-login-link{
+.auth-login-link {
   color: gainsboro;
   text-decoration: none;
 }
 
-.auth-login-link:hover{
+.auth-login-link:hover {
   color: bisque;
   text-decoration: underline;
 }
@@ -80,13 +80,6 @@ nav {
   margin-left: 1.5rem;
   margin-right: 0;
 }
-
-
-
-
-
-
-
 
 /* <===========================================   MAIN CONTENT PAGE ==========================================> */
 /* <=============================================================================================================> */
