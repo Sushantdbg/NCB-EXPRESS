@@ -6,11 +6,10 @@
 npm install react-scripts
 ```
 
-#### We have to do this because we arent pushing some node modules and script with the auto gitignore file
+#### We have to do this because we aren't pushing some node modules and script with the auto .gitignore file
 
-#### Random packages,ignore and readme total line count 27552
+#### Random packages, ignore and readme total line count 27552
 
-### This is a croudsourced bug alert system for huge software and products
 <br/>
 <br/>
 
