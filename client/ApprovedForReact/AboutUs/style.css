@@ -3,6 +3,7 @@
 *,
 *:before,
 *:after {
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,50 +16,56 @@ body {
 
 /* GRAPHICAL BACKGROUND CIRCLE CSS */
 .background {
-  width: 430px;
+  width: 60%;
   height: 520px;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-80%, -60%);
   left: 50%;
   top: 50%;
 }
 
 .background .shape {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   position: absolute;
   border-radius: 50%;
 }
 
 .shape:first-child {
   background: linear-gradient(#1845ad, #23a2f6);
-  left: -80px;
-  top: -80px;
+  left: 180px;
+  top: -60px;
 }
 
 .shape:last-child {
   background: linear-gradient(to right, #ff512f, #f09819);
-  right: -30px;
-  bottom: -80px;
+  right: -370px;
+  bottom: -250px;
 }
-
 /* FORM IN BODY STYLING */
-form {
-  height: 520px;
-  width: 400px;
+.about {
+margin: 30px;
+  margin-top: 70px;
+  margin-left:10%;;
+  /* height: 820px; */
+  width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  position:relative;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;*/
+  /* left: 50%; */
+
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-  padding: 50px 35px;
+  padding: 20px 35px;
+  margin-bottom: 100px;
+  margin-left: 20%;
 }
 
-form * {
+.about {
+  /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -66,39 +73,25 @@ form * {
   border: none;
 }
 
-form h3 {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 42px;
+.about--title {
+  font-size: 4rem;
   text-align: center;
+  font-weight: 900;
 }
 
-label {
-  display: block;
-  margin-top: 30px;
+.about--point {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.about--desc {
   font-size: 16px;
-  font-weight: 500;
-}
-
-input {
-  display: block;
-  height: 50px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.07);
-  border-radius: 3px;
-  padding: 0 10px;
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-/* TEXT FEILD PLACEHOLDER STYLING */
-::placeholder {
-  color: #696969;
 }
 
 button {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   background-color: #ffffff;
   color: #080710;
@@ -107,4 +100,9 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.button-last:hover{
+background-color:   #23a2f6;
 }

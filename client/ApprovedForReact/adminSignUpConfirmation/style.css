@@ -16,8 +16,8 @@ body {
 
 /* GRAPHICAL BACKGROUND CIRCLE CSS */
 .background {
-  width: 60%;
-  height: 90%;
+  width: 525px;
+  height: 500px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -44,11 +44,10 @@ body {
 }
 
 /* FORM IN BODY STYLING */
-.faq {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-height: 1111px;
-  max-width: 90%;
+.thanks {
+  height: 500px;
+  min-width: 450px;
+  max-width: 500px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
   transform: translate(-50%, -50%);
@@ -59,35 +58,36 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
+  color: #ffffff
 }
 
-.faq {
+.thanks * {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  /* color: #ffffff; */
+
   letter-spacing: 0.5px;
   outline: none;
   border: none;
 }
 
-.faq--title {
+.thanks--title {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
+  margin-top: 2rem;
 }
 
-.faq--ques {
+.thanks--message {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
+  text-align: center;
   font-weight: 400;
 }
 
-.faq--ans {
-  font-size: 16px;
-}
-
 button {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   background-color: #ffffff;
   color: #080710;
@@ -96,4 +96,9 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.button-last:hover{
+background-color:   #23a2f6;
 }

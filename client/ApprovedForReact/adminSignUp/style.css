@@ -15,31 +15,31 @@ body {
 
 /* GRAPHICAL BACKGROUND CIRCLE CSS */
 .background {
-  width: 600px;
-  height: 80%;
+  width: 60%;
+  height: 520px;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-80%, -60%);
   left: 50%;
   top: 50%;
 }
 
 .background .shape {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   position: absolute;
   border-radius: 50%;
 }
 
 .shape:first-child {
   background: linear-gradient(#1845ad, #23a2f6);
-  left: -80px;
-  top: -80px;
+  left: 390px;
+  top: -70px;
 }
 
 .shape:last-child {
   background: linear-gradient(to right, #ff512f, #f09819);
-  right: -30px;
-  bottom: -80px;
+  right: -150px;
+  bottom: -450px;
 }
 
 /* FORM IN BODY STYLING */
@@ -48,10 +48,11 @@ form {
   min-width: 450px;
   max-width: 500px;
   background-color: rgba(255, 255, 255, 0.13);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  position: relative;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;
+  left: 50%; */
+  margin: 50px auto 50px auto;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -108,4 +109,8 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button-last:hover{
+background-color:   #23a2f6;
 }

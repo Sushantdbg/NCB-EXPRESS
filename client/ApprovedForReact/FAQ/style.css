@@ -33,7 +33,7 @@ body {
 
 .shape:first-child {
   background: linear-gradient(#1845ad, #23a2f6);
-  left: 180px;
+  left: 190px;
   top: -60px;
 }
 
@@ -42,29 +42,27 @@ body {
   right: -370px;
   bottom: -250px;
 }
-/* FORM IN BODY STYLING */
-.about {
-margin: 30px;
-  margin-top: 70px;
-  margin-left:10%;;
-  /* height: 820px; */
-  width: 60%;
-  background-color: rgba(255, 255, 255, 0.13);
-  position:relative;
-  /* transform: translate(-50%, -50%); */
-  /* top: 50%;*/
-  /* left: 50%; */
 
+/* FORM IN BODY STYLING */
+.faq {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-height: 1111px;
+  max-width: 60%;
+  background-color: rgba(255, 255, 255, 0.13);
+  /* position: absolute;
+  transform: translate(-50%, -50%); */
+  /* top: 50%;
+  left: 50%; */
+  margin: 50px auto 50px auto;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-  padding: 20px 35px;
-  margin-bottom: 100px;
-  margin-left: 20%;
+  padding: 50px 35px;
 }
 
-.about {
+.faq {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -73,20 +71,19 @@ margin: 30px;
   border: none;
 }
 
-.about--title {
+.faq--title {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
 }
 
-.about--point {
-  text-align: center;
+.faq--ques {
   margin-top: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.about--desc {
+.faq--ans {
   font-size: 16px;
 }
 
@@ -100,4 +97,9 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.button-last:hover{
+background-color:   #23a2f6;
 }
