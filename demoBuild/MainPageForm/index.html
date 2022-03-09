@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Complaint Form</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,47 +27,35 @@
 <!-- WHAT I WANT IS THAT GET EVERYTHING FROM HERE FROM BOOTSTRAP LATER ON -->
 
 <body>
-  <!-- EXPERIMENTAL AREA -->
-  <!-- <nav>
-    <a className="navbar-brand" href="#">
-      <img src={process.env.PUBLIC_URL + '/ncblogo1.svg.png' } alt="" className="d-inline-block align-text-top" /></a>
-    <h3 className="nav--logo_text">NCB Express</h3>
-    <h4 className="nav--title"><a href="#" className="language-select">Select Language</a></h4>
-    <h4 className="nav--title"><a href="#" className="auth-login-link">Authorised login</a></h4>
-    <img src={process.env.PUBLIC_URL + '/key-lock.png' } className="nav--icon--login" />
-  </nav> -->
 
-
-  <!-- EXPERIMENTAL AREA -->
-
-  <!-- TOLL-FREE NUMBER, LINK HOW TO FILL A FORM, GPS, MULTIPLE FILE UPLOAD WITH DRAG AND DROP  -->
-  <div class="background">
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-  </div>
+<!-- TOLL-FREE NUMBER, LINK HOW TO FILL A FORM, GPS, MULTIPLE FILE UPLOAD WITH DRAG AND DROP  -->
+<div class="background">
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <div class="shape"></div>
+</div>
 
 
 
-  <!-- <div class="div-whole-form"> -->
-  <form class="main-form" action="index.html" method="post">
-    <h2 class="Comp-head">Raise Your Complaint Here👇</h2>
-    <div class="div-date">
-      <div class="date-form">
-        <label for="dateOfEvent"><span class="">Date of Event</span></label>
-        <input type="date" name="" value="" class="form-control date-input">
-      </div>
-    </div>
+<!-- <div class="div-whole-form"> -->
+<form class="main-form" action="index.html" method="post">
+  <h2 class="Comp-head">Raise Your Complaint Here👇</h2>
+<div class="div-date">
+  <div class="date-form">
+    <label for="dateOfEvent"><span class="">Date of Event</span></label>
+    <input type="date" name="" value="" class="form-control date-input">
+</div>
+</div>
 
 
-    <div class="div-time">
-      <div class="time-form">
-        <label for="" class="time-label"><span class="">Time of Event</span></label>
-        <input type="time" name="" value="" class="time-input form-control">
-      </div>
-    </div>
+<div class="div-time">
+    <div class="time-form">
+      <label for="" class="time-label"><span class="">Time of Event</span></label>
+      <input type="time" name="" value="" class="time-input form-control">
+</div>
+</div>
 
-    <div>
+  <div>
       <label for="fname" class="accu-name">Accused Name(Optional)</label>
       <input type="text" id="fname" name="firstname" placeholder="enter name.." class="guilty-name form-control">
     </div>
@@ -93,50 +81,50 @@
       </select>
     </div>
 
-    <div>
-      <label for="inputCity" class="form-label">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
+         <div >
+           <label for="inputCity" class="form-label">City</label>
+           <input type="text" class="form-control" id="inputCity">
+         </div>
 
-    <div>
-      <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select form-control">
-        <option selected>Select option</option>
-        <option>...</option>
-      </select>
-    </div>
-
-
-    <div class="">
-      <label for="inputZip" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-
-    <div class="addr-div">
-      <label for="" class="form-label" class="addr-label">Address</label>
-      <textarea class="addr-text" name="textarea" rows="8" cols="80" id="inputAddress" placeholder="Enter Drug Activity related address"></textarea>
-    </div>
-
-    <div class="input-group">
-      <label class="input-group-text" for="inputGroupFile01">Upload image</label>
-      <input type="file" class="form-control add-file" id="inputGroupFile01" placeholder="">
-    </div>
-
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          I m sure with all the date i input
-        </label>
-      </div>
-    </div>
-
-    <div class="">
-      <button type="submit" class="btn btn-primary button-last">SUBMIT</button>
-    </div>
+         <div>
+           <label for="inputState" class="form-label">State</label>
+           <select id="inputState" class="form-select form-control">
+             <option selected>Select option</option>
+             <option>...</option>
+           </select>
+         </div>
 
 
-  </form>
+         <div class="">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+
+          <div class="addr-div">
+            <label for="" class="form-label" class="addr-label">Address</label>
+            <textarea class="addr-text" name="textarea" rows="8" cols="80" id="inputAddress" placeholder="Enter Drug Activity related address"></textarea>
+          </div>
+
+          <div class="input-group">
+            <label class="input-group-text" for="inputGroupFile01">Upload image</label>
+            <input type="file" class="form-control add-file" id="inputGroupFile01" placeholder="">
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+               <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                I m sure with all the date i input
+              </label>
+            </div>
+          </div>
+
+            <div class="">
+       <button type="submit" class="btn btn-primary button-last">SUBMIT</button>
+     </div>
+
+
+</form>
 
   <!-- LOCAL BEHAVIOUR JS -->
   <script src="behaviour.js"></script>

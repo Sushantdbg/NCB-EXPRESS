@@ -58,12 +58,14 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
+  color: #ffffff
 }
 
-.thanks {
+.thanks * {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  /* color: #ffffff; */
+
   letter-spacing: 0.5px;
   outline: none;
   border: none;
@@ -94,4 +96,9 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+.button-last:hover{
+background-color:   #23a2f6;
 }

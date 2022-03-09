@@ -66,13 +66,16 @@
 } */
 /* EXPERIMENTAL AREA ENDS HERE */
 /* Im going to apply Poppins to the whole page lets see */
-* {
+/* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
+/* Im going to apply Poppins to the whole page lets see */
+*{
   font-family: poppins;
 }
 
+
 /* ALL PAGE */
-body {
-  max-width: 95%;
+body{
+  max-width:95% ;
   /* text-align: center; */
   /* margin-left: 20%; */
   margin-left: 10%;
@@ -81,12 +84,13 @@ body {
 }
 
 /* BODY STYLING */
-.body--title {
+.body--title{
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: -2px;
   /* font-stretch: condensed;   */
 }
+
 
 /* <======================== CIRCLE SHAPE start ========================================> */
 .background {
@@ -118,7 +122,9 @@ body {
 }
 
 /* <======================== CIRCLE SHAPE END ========================================> */
+
 /* <========================== DEFAULT ADDED CSS ============================> */
+
 /* MAIN SECTION MAYBE */
 input[type=text], select {
   /* width: 50%; */
@@ -153,15 +159,18 @@ div {
   padding: 20px;
 }
 
+
 /* <=======================================================================================================> */
 /* <==================================== COMPLAINT RAISER FORM ========================================>  */
 /* <=========================================================================================================> */
+
+
 form {
   margin-top: 70px;
   /* height: 820px; */
   width: 80%;
   background-color: rgba(255, 255, 255, 0.13);
-  position: relative;
+  position:relative;
   /* transform: translate(-50%, -50%); */
   /* top: 50%;*/
   /* left: 50%; */
@@ -181,6 +190,7 @@ form * {
   border: none;
 }
 
+
 input {
   display: block;
   height: 50px;
@@ -193,35 +203,33 @@ input {
   font-weight: 300;
 }
 
-label {
+label{
   display: flow-root;
 }
-
 /* .form-control{
   width: 50%;
   display: inline-block;
 } */
-.form-select, .form-control {
+.form-select, .form-control{
   width: 50%;
   display: inline-block;
 }
 
-.add-file {
+.add-file{
   width: 10%;
   flex: auto;
   margin-right: 41%;
 }
 
-.date-input {
+.date-input{
   width: 110%;
   color: ivory;
 }
 
-.time-input {
+.time-input{
   width: 170%;
 }
-
-.Comp-head {
+.Comp-head{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -231,59 +239,63 @@ label {
   /* margin-left: 1%;
   padding-left: 10%;
 } */
-.div-date {
+
+.div-date{
   display: inline-block;
   padding: 0;
   text-align: left;
 }
 
-.date-form {
+.date-form{
   display: inline-block;
 }
 
-.div-time {
+.div-time{
   padding: 0;
   padding-left: 20px;
   display: inline-block;
   text-align: center;
 }
 
-.time-form {
+.time-form{
   display: inline-block;
   align-items: center;
 }
 
-.time-label {
+.time-label{
   align-items: right;
 }
 
-.time-input {
+.time-input{
   align-items: right;
 }
 
-.accu-name {
+.accu-name{
   margin-right: 30px;
 }
-
-.form-control, .guilty-name {
+.form-control, .guilty-name{
   /* width: :100%; */
   height: 40px;
 }
 
-.rep-select {
+.rep-select{
   width: 50%;
 }
 
-.addr-label {
+
+.addr-label{
   max-width: 100px;
+
 }
 
-.addr-text {
+.addr-text{
   max-width: 60%;
 }
 
+
+
 /* def col: #FFCC33 */
-.form-control, textarea, select {
+.form-control, textarea, select{
   background: none !important;
   border-top: #ffffff 1px solid !important;
   border-left: #ffffff 1px solid !important;
@@ -293,12 +305,14 @@ label {
   color: #FFCC33 !important;
 }
 
-option {
+option{
   background-color: #28272f;
   color: white;
 }
 
-.input-group-text {
+
+.input-group-text{
+
   height: 40px;
   margin: 0;
   padding: 0;
@@ -306,7 +320,7 @@ option {
   padding-right: 2px;
 }
 
-.add-file {
+.add-file{
   margin-left: 100px;
 }
 
@@ -316,14 +330,16 @@ option {
   margin-right: 5px;
 }
 
-.margin-div {
+
+.margin-div{
   margin-top: 10px;
 }
 
-.main-form {
+
+.main-form{
   margin-bottom: 100px;
 }
 
-.button-last:hover {
-  background-color: #23a2f6;
+.button-last:hover{
+background-color:   #23a2f6;
 }
