@@ -23,8 +23,14 @@
   <div class="thanks">
     <p class="thanks--title">THANK YOU!</p>
     <p class="thanks--message">You have been successfully Signed up</p>
-    <button class="button-last">Let's Go to Login Page</button>
+    <button type="button" onclick="window.location.href='../authorisedLoginPage/index.html'" class="button-last">Let's Go to Login Page</button>
   </div>
+
+  <script type="text/javascript">
+    setTimeout(function() {
+      window.location.href = '../authorisedLoginPage/index.html';
+    }, 3500);
+  </script>
 </body>
 
 </html>
