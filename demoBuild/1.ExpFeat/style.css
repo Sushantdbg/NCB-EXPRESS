@@ -1,0 +1,549 @@
+body{
+  margin: 0;
+  padding: 0;
+    background-color: #080710;
+}
+
+.Official-logo{
+width: 72px;;
+display: flex;
+/* justify-content: center;
+align-items: center; */
+/* margin-left: 1%; */
+padding: 0;
+display: inline-block;
+margin-right: 2%;
+color: antiquewhite;
+}
+
+.nav--icon--login{
+  filter: invert();
+  width: 2.5rem;
+}
+
+.navbar-brand{
+  display:flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav--logo_text{
+color: white;
+width: 10%;
+padding-right: 5%;
+font-size: 1.5rem;
+}
+
+
+.language-select{
+  text-decoration: none;
+  color:azure;
+  font-size: 1rem;
+  margin-left: 130px;
+  margin-right: 10px;
+display: flex;
+}
+
+.auth-login-link{
+  text-decoration: none;
+  color:azure;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+
+}
+.navbar {
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+
+
+.background1{
+background:rgba(0, 0, 0, 0.7) url(../img/img3.jpg);
+background-size: cover;
+background-blend-mode: darken;
+}
+
+
+.nav-list{
+/* width: 50%; */
+display: flex;
+align-items: center;
+
+}
+
+
+.nav-list li{
+list-style: none;
+padding: 0px 24px 0 24px;
+font-size: 20px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+
+
+.nav-list li .nav-list-anc:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ol, ul {
+    padding-left: 8rem;
+} */
+
+ul{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.rightnav{
+/* background-color: blue; */
+width:30%;
+text-align:right;
+padding: 0 23px;
+}
+
+
+#search{
+padding: 5px;
+font-size: 17px;
+border: 2px solid greenyellow;
+border-radius: 9px;
+}
+
+#btn btn-sm a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+padding: 8px 20px;
+margin: 7px 6px;
+border: 2px solid white;
+border-radius: 50px;
+background: none;
+color: white;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+font-size: 16px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+text-decoration: none;
+list-style: none;
+color: rgb(0, 0, 0);
+background-color:rgb(0, 255, 191);
+}
+
+.btn-dark{
+color: black;
+border: 2px solid black;
+}
+
+/* <============================== CUSTOM NAVBAR FOR SMALL SIZE SCREEN ====================================> */
+
+nav {
+  background-color: #0082e6;
+  height: 85px;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+}
+
+
+nav ul li .nav-list-anc {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-list-anc.active, .nav-list-anc:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav{
+    height: 110px;
+  }
+
+  .checkbtn {
+    display:block;
+  }
+
+.navbar{
+  justify-content: space-around;
+}
+
+.logo img{
+width: 80px;
+border: 3px solid rgb(245, 245, 245);
+border-radius:100px;
+margin: 0;
+padding: 0;
+}
+
+
+  ul {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 110px;
+      left: -100%;
+    padding-top: 120px;
+    transition: all .5s;
+  }
+  .nav-list{
+  /* width: 100%; */
+  display: block;
+  margin: 0 0 50px 0;
+  align-items: center;
+  line-height: 30px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .nav-list-anc:hover, .nav-list-anc.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+}
+
+
+
+/* <========================================= NAVBAR END =====================================> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <======================== CIRCLE SHAPE start ========================================> */
+.background {
+  width: 60%;
+  height: 520px;
+  position: absolute;
+  transform: translate(-80%, -60%);
+  left: 50%;
+  top: 50%;
+}
+
+.background .shape {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: 30px;
+  top: 20px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -370px;
+  bottom: -250px;
+}
+
+/* <======================== CIRCLE SHAPE END ========================================> */
+
+/* <========================== DEFAULT ADDED CSS ============================> */
+
+/* MAIN SECTION MAYBE */
+input[type=text], select {
+  /* width: 50%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  /* width: 100%; */
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* div {
+  border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  /* background-color: #021725; */
+  /* color: floralwhite;
+  padding: 20px;
+} */
+
+
+/* <=======================================================================================================> */
+/* <==================================== COMPLAINT RAISER FORM ========================================>  */
+/* <=========================================================================================================> */
+
+
+form {
+  margin-top: 70px;
+  /* height: 820px; */
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.13);
+  position:relative;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;*/
+  /* left: 50%; */
+  left: 8%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px 35px;
+}
+
+form * {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+label{
+  display: flow-root;
+}
+/* .form-control{
+  width: 50%;
+  display: inline-block;
+} */
+.form-select, .form-control{
+  width: 50%;
+  display: inline-block;
+}
+
+.add-file{
+  width: 10%;
+  flex: auto;
+  margin-right: 41%;
+}
+
+.date-input{
+  width: 110%;
+  color: ivory;
+}
+
+.time-input{
+  width: 170%;
+}
+.Comp-head{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* .div-whole-form{
+  /* margin-left: 1%;
+  padding-left: 10%;
+} */
+
+.div-date{
+  display: inline-block;
+  padding: 0;
+  text-align: left;
+}
+
+.date-form{
+  display: inline-block;
+}
+
+.div-time{
+  padding: 0;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.time-form{
+  display: inline-block;
+  align-items: center;
+}
+
+.time-label{
+  align-items: right;
+}
+
+.time-input{
+  align-items: right;
+}
+
+.accu-name{
+  margin-right: 30px;
+}
+.form-control, .guilty-name{
+  /* width: :100%; */
+  height: 40px;
+}
+
+.rep-select{
+  width: 50%;
+}
+
+
+.addr-label{
+  max-width: 100px;
+
+}
+
+.addr-text{
+  max-width: 60%;
+}
+
+
+
+/* def col: #FFCC33 */
+.form-control, textarea, select{
+  background: none !important;
+  border-top: #ffffff 1px solid !important;
+  border-left: #ffffff 1px solid !important;
+  border-bottom: #ffffff 3px solid !important;
+  border-right: #ffffff 3px solid !important;
+  border-radius: 2px !important;
+  color: #FFCC33 !important;
+}
+
+option{
+  background-color: #28272f;
+  color: white;
+}
+
+
+.input-group-text{
+
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  padding-right: 2px;
+}
+
+.add-file{
+  margin-left: 100px;
+}
+
+.form-check-input {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 5px;
+}
+
+
+.margin-div{
+  margin-top: 10px;
+}
+
+
+.main-form{
+  margin-bottom: 100px;
+}
+
+.button-last:hover{
+background-color:   #23a2f6;
+}
