@@ -144,7 +144,8 @@
 
     <div class="add-pre-sub">
       <label for="inputZip" class="form-label small-label">Zip</label>
-      <input type="text" class="form-control zip-input" id="inputZip">
+      <!-- <input type="text" class="form-control zip-input" id="inputZip">    <<<This was the original one and I change it to the below one -->
+      <input id="inputZip" class="form-control zip-input" name="zip" type="text" pattern="[0-9]*">
     </div>
 
     <div class="addr-div">
@@ -153,7 +154,7 @@
     </div>
 
     <div class="input-group">
-      <label class="input-group-text" for="inputGroupFile01">Upload image</label>
+      <label class="input-group-text" for="inputGroupFile01"> Upload relevant Image </label>
       <input type="file" class="form-control add-file" id="inputGroupFile01" placeholder="">
     </div>
 
