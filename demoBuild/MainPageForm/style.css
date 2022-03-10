@@ -1,129 +1,119 @@
-*{
+* {
   font-family: poppins;
 }
 
-body{
+body {
   /* letter-spacing: -2px; */
   margin: 0;
   padding: 0;
-    background-color: #080710;
+  background-color: #080710;
 }
 
-.Official-logo{
-width: 72px;;
-display: flex;
-/* justify-content: center;
+.Official-logo {
+  width: 72px;
+  ;
+  display: flex;
+  /* justify-content: center;
 align-items: center; */
-/* margin-left: 1%; */
-padding: 0;
-display: inline-block;
-margin-right: 2%;
-color: antiquewhite;
+  /* margin-left: 1%; */
+  padding: 0;
+  display: inline-block;
+  margin-right: 2%;
+  color: antiquewhite;
 }
 
-.nav--icon--login{
+.nav--icon--login {
   filter: invert();
   width: 2.5rem;
 }
 
-.navbar-brand{
-  display:flex;
+.navbar-brand {
+  display: flex;
   margin: 0;
   padding: 0;
 }
 
-.nav--logo_text{
-color: white;
-/* width: 10%; */
-padding-right: 5%;
-font-size: 1.5rem;
+.nav--logo_text {
+  color: white;
+  /* width: 10%; */
+  padding-right: 5%;
+  font-size: 1.5rem;
 }
 
-
-.language-select{
+.language-select {
   text-decoration: none;
-  color:azure;
+  color: azure;
   font-size: 1rem;
   margin-left: 130px;
   margin-right: 10px;
-display: flex;
+  display: flex;
 }
 
-.auth-login-link{
+.auth-login-link {
   text-decoration: none;
-  color:azure;
+  color: azure;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
-
 }
+
 .navbar {
-display: flex;
-align-items: center;
-justify-content: center;
-position: sticky;
-top: 0;
-cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
 }
 
-
-.background1{
-background:rgba(0, 0, 0, 0.7) url(../img/img3.jpg);
-background-size: cover;
-background-blend-mode: darken;
+.background1 {
+  background: rgba(0, 0, 0, 0.7) url(../img/img3.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
-
-.nav-list{
-/* width: 50%; */
-display: flex;
-align-items: center;
-
+.nav-list {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
 }
 
-
-.nav-list li{
-list-style: none;
-padding: 0px 24px 0 24px;
-font-size: 20px;
-font-family: 'Ubuntu', sans-serif;
+.nav-list li {
+  list-style: none;
+  padding: 0px 24px 0 24px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-
-.nav-list li a{
-text-decoration: none;
-color: white;
+.nav-list li a {
+  text-decoration: none;
+  color: white;
 }
 
-
-.nav-list li .nav-list-anc:hover{
-    color: black;
-    background-color: rgb(255, 255, 255);
+.nav-list li .nav-list-anc:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ol, ul {
     padding-left: 8rem;
 } */
-
-ul{
+ul {
   margin-left: 0;
   margin-right: 0;
 }
 
-li{
+li {
   margin-left: 0;
   margin-right: 0;
 }
-
-
 
 /* <============================== CUSTOM NAVBAR FOR SMALL SIZE SCREEN ====================================> */
-
 nav {
   background-color: #0082e6;
   height: 85px;
@@ -131,7 +121,6 @@ nav {
   z-index: 2;
   position: fixed;
 }
-
 
 nav ul li .nav-list-anc {
   color: white;
@@ -175,26 +164,25 @@ nav ul li .nav-list-anc {
 }
 
 @media (max-width: 1100px) {
-  nav{
+  nav {
     height: 110px;
   }
 
   .checkbtn {
-    display:block;
+    display: block;
   }
 
-.navbar{
-  justify-content: space-around;
-}
+  .navbar {
+    justify-content: space-around;
+  }
 
-.logo img{
-width: 80px;
-border: 3px solid rgb(245, 245, 245);
-border-radius:100px;
-margin: 0;
-padding: 0;
-}
-
+  .logo img {
+    width: 80px;
+    border: 3px solid rgb(245, 245, 245);
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+  }
 
   ul {
     text-align: center;
@@ -203,16 +191,17 @@ padding: 0;
     height: 100vh;
     background: #2c3e50;
     top: 110px;
-      left: -100%;
+    left: -100%;
     padding-top: 120px;
     transition: all .5s;
   }
-  .nav-list{
-  /* width: 100%; */
-  display: block;
-  margin: 0 0 50px 0;
-  align-items: center;
-  line-height: 30px;
+
+  .nav-list {
+    /* width: 100%; */
+    display: block;
+    margin: 0 0 50px 0;
+    align-items: center;
+    line-height: 30px;
   }
 
   nav ul li {
@@ -233,26 +222,9 @@ padding: 0;
   #check:checked~ul {
     left: 0;
   }
-
 }
 
-
-
 /* <========================================= NAVBAR END =====================================> */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* <======================== CIRCLE SHAPE start ========================================> */
 .background {
   width: 60%;
@@ -283,9 +255,7 @@ padding: 0;
 }
 
 /* <======================== CIRCLE SHAPE END ========================================> */
-
 /* <========================== DEFAULT ADDED CSS ============================> */
-
 /* MAIN SECTION MAYBE */
 input[type=text], select {
   /* width: 50%; */
@@ -320,18 +290,15 @@ div {
   padding: 20px;
 }
 
-
 /* <=======================================================================================================> */
 /* <==================================== COMPLAINT RAISER FORM ========================================>  */
 /* <=========================================================================================================> */
-
-
 form {
   margin-top: 70px;
   /* height: 820px; */
   width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
-  position:relative;
+  position: relative;
   /* transform: translate(-50%, -50%); */
   /* top: 50%;*/
   /* left: 50%; */
@@ -351,7 +318,6 @@ form * {
   border: none;
 }
 
-
 input {
   display: block;
   height: 50px;
@@ -364,38 +330,36 @@ input {
   font-weight: 300;
 }
 
-label{
+label {
   display: flow-root;
-
 }
-
 
 /* .form-control{
   width: 50%;
   display: inline-block;
 } */
-.form-select, .form-control{
+.form-select, .form-control {
   /* width: 50%; */
   display: inline-block;
 }
 
-.city-input{
+.city-input {
   width: 100%;
 }
 
-.state-input{
-width: 100%;
+.state-input {
+  width: 100%;
 }
 
-.zip-input{
-width: 100%;
+.zip-input {
+  width: 100%;
 }
 
-.small-label{
+.small-label {
   display: inline-block;
 }
 
-.add-pre-sub{
+.add-pre-sub {
   width: 32%;
   padding: 0;
   padding-left: 20px;
@@ -403,21 +367,24 @@ width: 100%;
   text-align: center;
 }
 
-.add-file{
+.add-file {
   width: 10%;
   flex: auto;
   /* margin-right: 41%; */
 }
 
-.date-input{
+.date-input {
   width: 110%;
   color: ivory;
 }
 
-.time-input{
+.time-input {
   width: 170%;
 }
-.Comp-head{
+
+.Comp-head {
+  font-size: 3rem;
+  font-weight: 600;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -427,19 +394,18 @@ width: 100%;
   /* margin-left: 1%;
   padding-left: 10%;
 } */
-
-.div-date{
+.div-date {
   display: inline-block;
   padding: 0;
   text-align: left;
   margin-left: 9%;
 }
 
-.date-form{
+.date-form {
   display: inline-block;
 }
 
-.div-time{
+.div-time {
   padding: 0;
   /* padding-left: 20px; */
   display: inline-block;
@@ -447,7 +413,7 @@ width: 100%;
   width: 38%;
 }
 
-.time-form{
+.time-form {
   display: inline-block;
 }
 
@@ -458,16 +424,16 @@ width: 100%;
 .time-input{
   align-items: right;
 } */
-
-.accu-name{
+.accu-name {
   margin-right: 30px;
 }
-.form-control, .guilty-name{
+
+.form-control, .guilty-name {
   /* width: :100%; */
   height: 40px;
 }
 
-.rep-select{
+.rep-select {
   width: 50%;
 }
 
@@ -476,21 +442,19 @@ width: 100%;
   max-width: 100px;
 
 } */
-
 /* .addr-text{
   max-width: 150%;
 } */
-
 element.style {
   width: 100%;
 }
 
-textarea{
+textarea {
   width: 100%;
 }
 
 /* def col: #FFCC33 */
-.form-control, textarea, select{
+.form-control, textarea, select {
   background: none !important;
   border-top: #ffffff 1px solid !important;
   border-left: #ffffff 1px solid !important;
@@ -500,13 +464,12 @@ textarea{
   color: #FFCC33 !important;
 }
 
-option{
+option {
   background-color: #28272f;
   color: white;
 }
 
-
-.input-group-text{
+.input-group-text {
   height: 40px;
   margin: 0;
   padding: 0;
@@ -514,7 +477,7 @@ option{
   padding-right: 2px;
 }
 
-.add-file{
+.add-file {
   margin-left: 100px;
 }
 
@@ -524,21 +487,27 @@ option{
   margin-right: 5px;
 }
 
+.form-check-label {
+  display: inline-block;
+}
 
-.margin-div{
+.col-4 {
+  display: inline-block;
+}
+
+.margin-div {
   margin-top: 10px;
 }
 
-
-.main-form{
+.main-form {
   margin-bottom: 100px;
 }
 
-.button-last:hover{
-background-color:   #23a2f6;
+.button-last:hover {
+  background-color: #23a2f6;
 }
 
-.toll{
+.toll {
   text-align: center;
   font-size: 13px;
 }
