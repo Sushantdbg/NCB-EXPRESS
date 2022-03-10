@@ -289,49 +289,53 @@ body {
 /* <======================== CIRCLE SHAPE END ========================================> */
 
 /* FORM IN BODY STYLING */
-.faq {
-
-  margin-bottom: 1rem;
-  max-height: 1111px;
-  max-width: 60%;
+.about {
+margin: 30px;
+  margin-top: 70px;
+  margin-left:10%;;
+  /* height: 820px; */
+  width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
-  /* position: absolute;
-  transform: translate(-50%, -50%); */
-  /* top: 50%;
-  left: 50%; */
-  margin: 50px auto 50px auto;
+  position:relative;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;*/
+  /* left: 50%; */
+
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-  padding: 50px 60px;
+    padding: 50px 60px;
+  margin-bottom: 100px;
+  margin-left: 20%;
 }
 
-.faq {
+.about {
   /* here if we put a star * then it couldnt be overwritten */
-    margin-top: 80px;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
   outline: none;
   border: none;
+    /* margin-top: 80px; */
+
 }
 
-.faq--title {
-  font-size: 2rem;
+.about--title {
+  font-size: 3rem;
   text-align: center;
   font-weight: 900;
 }
 
-.faq--ques {
+.about--point {
   margin-top: 2rem;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 500;
 }
 
-.faq--ans {
-  font-size: 13px;
-  font-weight:100;
+.about--desc {
+  font-size: 16px;
+  font-weight: 100;
 }
 
 button {
