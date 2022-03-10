@@ -45,7 +45,7 @@ body {
 /* FORM IN BODY STYLING */
 form {
   height: 520px;
-  width: 400px;
+  width: 550px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
   transform: translate(-50%, -50%);
@@ -67,8 +67,8 @@ form * {
 }
 
 form h3 {
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 6 00;
   line-height: 42px;
   text-align: center;
 }
@@ -109,6 +109,17 @@ button {
   cursor: pointer;
 }
 
-.button-last:hover{
-background-color:   #23a2f6;
+.button-last:hover {
+  background-color: #23a2f6;
+}
+
+/* TO SIGN UP */
+.to--signup {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.to--signup--anchor {
+  text-decoration: none;
 }
