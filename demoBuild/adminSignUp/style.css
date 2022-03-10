@@ -15,8 +15,8 @@ body {
 
 /* GRAPHICAL BACKGROUND CIRCLE CSS */
 .background {
-  width: 60%;
-  height: 520px;
+  width: 1000px;
+  height: 400px;
   position: absolute;
   transform: translate(-80%, -60%);
   left: 50%;
@@ -111,6 +111,6 @@ button {
   cursor: pointer;
 }
 
-.button-last:hover{
-background-color:   #23a2f6;
+.button-last:hover {
+  background-color: #23a2f6;
 }
