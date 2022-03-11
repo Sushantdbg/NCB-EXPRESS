@@ -164,3 +164,52 @@ div {
 .row {
   margin-top: 2rem;
 }
+
+
+
+.card-block{
+  width:30%;
+}
+
+/* <============================ carousel =============================> */
+
+
+
+.carou-img{
+  width: 180px;
+  margin: 0;
+  padding: 0;
+}
+.carousel{
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-inner{
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-item{
+  margin: 0;
+  padding: 0;
+}
+
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child1 {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+.float-child2 {
+    /* width: 30%; */
+    margin-left: 10px;
+    float: left;
+    padding: 20px;
+}
