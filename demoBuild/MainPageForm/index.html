@@ -62,11 +62,16 @@
     </div>
 
     <div>
-      <label for="fname" class="accu-name">Accused Name(Optional)</label>
-      <input type="text" id="fname" name="firstname" placeholder="Enter name here" class="guilty-name form-control">
+      <label for="fname" class="accu-name">Sort description</label>
+      <input type="text" id="fname" name="firstname" placeholder="Keep under 20 words..." class="guilty-name form-control">
     </div>
 
     <div>
+      <label for="fname" class="accu-name">Accused Name(Optional)</label>
+      <input type="text" id="fname" name="firstname" placeholder="Enter accused name here" class="guilty-name form-control">
+    </div>
+
+    <div class="drug-rel">
       <label for="" class="custom-select">Type Of Drug</label>
       <select class="form-control" class="rep-select">
         <option value="0">--Please choose an option--</option>
@@ -78,8 +83,8 @@
       </select>
     </div>
 
-    <div>
-      <label for="">Severioty</label>
+    <div class="drug-rel">
+      <label for="" class="sever">Severioty</label>
       <select class="form-control">
         <option value="">--Please choose an option--</option>
         <option>Mild</option>
@@ -149,8 +154,8 @@
     </div>
 
     <div class="addr-div">
-      <label for="" class="form-label" class="addr-label">Address</label>
-      <textarea class="addr-text" name="textarea" rows="8" cols="80" id="inputAddress" placeholder="Enter Drug Activity related address"></textarea>
+      <label for="" class="form-label" class="addr-label">Detailed location</label>
+      <textarea class="addr-text" name="textarea" rows="8" cols="80" id="inputAddress" placeholder="Enter Drug Activity related location"></textarea>
     </div>
 
     <div class="input-group">
@@ -171,12 +176,12 @@
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
-          I have double checked the data for assurity of correctness
+          I have checked data for any errors
         </label>
       </div>
     </div>
 
-    <div class="">
+    <div class="main-button">
       <button type="submit" class="btn btn-primary button-last">SUBMIT</button>
     </div>
 

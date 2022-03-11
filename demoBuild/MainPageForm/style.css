@@ -11,7 +11,6 @@ body {
 
 .Official-logo {
   width: 72px;
-  ;
   display: flex;
   /* justify-content: center;
 align-items: center; */
@@ -376,6 +375,7 @@ label {
 .date-input {
   width: 110%;
   color: ivory;
+  border-radius: 10px;
 }
 
 .time-input {
@@ -437,6 +437,15 @@ label {
   width: 50%;
 }
 
+.drug-rel{
+  display: inline-block;
+  width: 49.5%;
+}
+
+
+
+
+
 /*
 .addr-label{
   max-width: 100px;
@@ -488,11 +497,23 @@ option {
 }
 
 .form-check-label {
-  display: inline-block;
+  /* display: inline-block; */
+  padding-right: 0;
+}
+
+input{
+  border-radius: 10px;
 }
 
 .col-4 {
   display: inline-block;
+  width: 49%;
+  padding-right: 0;
+  /* padding-left: 0; */
+}
+
+.main-button{
+  text-align: center;
 }
 
 .margin-div {
